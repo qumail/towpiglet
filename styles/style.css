@@ -1,0 +1,441 @@
+body {
+    background-color: black!important;
+}
+.img-user {
+    width: 4.5%;
+    height: auto;
+    padding-right: 9px;
+}
+.top-input {
+    color: white;
+    margin-top: 13px;
+    background-color: black;
+}
+.input-col {
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 24px;
+    background-color: black;
+}
+.logo-col {
+    padding: 24px;
+    padding-left: 24px!important;
+    background-color: black;
+}
+.logo-img {
+    margin-left: 50px;
+    width: 6%!important;
+    position: relative;
+    left: 37px;
+}
+
+::placeholder { 
+    color: white;
+    opacity: 1;
+    font-size: 14px;
+  }
+
+.jumbotron {
+    background-image: url('../images/Background-Image.png');
+    background-size: 1470px;
+    min-height: 730px;
+
+}
+.list-col {
+    background-color: black;
+    margin-top: 4em;
+    padding-top: 0.4rem!important;
+}
+.list {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+.mr-6 {
+    margin-right: 3.5rem!important;
+}
+
+.columns {
+    background-color: black;
+    padding-right: 0px!important;
+    padding-left: 6px!important;
+   
+}
+.random-text {
+    white-space: pre-line;
+    font-weight: light;
+    font-size: 12px;
+    color: grey;
+}
+.title {
+    font-size: 18px;
+    color: white;
+    margin-bottom: -11px;
+    padding-top: 12px;
+}
+
+.img-play {
+    width: 37px
+
+}
+.first-box {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.dark-box {
+    padding-left: 6em!important;
+    padding-top: 3.5em!important;
+    padding-bottom: 3.5em!important;
+    padding-right: 9em!important;
+    background-color: rgb(39, 39, 39);
+    align-items: center;
+    
+}
+#main-section {
+    margin-top: -1px;
+}
+
+div.ex-one {
+    width: 1000px;
+    overflow: auto;
+    background-color: black;
+}
+
+.ex-one::-webkit-scrollbar-track
+{
+	background-color: #464343;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.ex-one::-webkit-scrollbar
+{
+    height: 8px;
+}
+
+.ex-one::-webkit-scrollbar-thumb
+{ 
+	background-color: #e4609e;
+}
+
+.list-und-div {
+    background-color: white;
+    height: 3px;
+    transform: translateX(20.7812px) scaleX(68);
+    transform-origin: left center;
+    opacity: 1;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    transition-property: transform;
+    transition-duration: 0.6s;
+    width: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.ab {
+    transform: translateX(111.7812px) scaleX(68); 
+    background-color: white;
+    height: 3px;
+    transform-origin: left center;
+    opacity: 1;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    transition-property: transform;
+    transition-duration: 0.6s;
+    width: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+}
+.ac {
+    transform: translateX(203.7812px) scaleX(68);  
+    background-color: white;
+    height: 3px;
+    transform-origin: left center;
+    opacity: 1;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    transition-property: transform;
+    transition-duration: 0.6s;
+    width: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+.ad {
+    transform: translateX(290.7812px) scaleX(68); 
+    background-color: white;
+    height: 3px;
+    transform-origin: left center;
+    opacity: 1;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    transition-property: transform;
+    transition-duration: 0.6s;
+    width: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+}
+.ae {
+    transform: translateX(379.7812px) scaleX(68); 
+    background-color: white;
+    height: 3px;
+    transform-origin: left center;
+    opacity: 1;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    transition-property: transform;
+    transition-duration: 0.6s;
+    width: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+}
+.af {
+    transform: translateX(456.7812px) scaleX(68);
+    background-color: white;
+    height: 3px;
+    transform-origin: left center;
+    opacity: 1;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    transition-property: transform;
+    transition-duration: 0.6s;
+    width: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0;  
+}
+
+.last-div {
+    background-color: black;
+    width: 1000px;
+    padding-bottom: 16px!important;
+}
+
+@media screen and (min-width: 1450px) {
+    .jumbotron {
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .list-col {
+        max-width: 100%!important;
+    }
+    .img-user {
+        width: 6%;
+        height: auto;
+        padding-right: 9px;
+    }
+    .img-play {
+        width: 37px!important;
+    }
+    .dark-box {
+        padding-left: 5em!important;
+    }
+    .logo-img {
+        width: 8%!important;
+    }
+    .tp {
+        width: 84%!important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .dark-box {
+        align-items: center;
+        width: 100%!important;
+    }
+}
+@media screen and (max-width: 769px) {
+    .img-user {
+        width: 8%;
+        height: auto;
+        padding-right: 9px;
+    }
+    .top-input {
+        font-size: 14px;
+    }
+    .img-play {
+        width: 40%;
+    }
+    .dark-box {
+        padding-left: 2em!important;
+        padding-right: 2em!important;
+        text-align: center;
+    }
+    .logo-img {
+        width: 10%!important;
+    }
+    .columns {
+        flex-direction: column;
+    }
+    .inner-col {
+        width: 100%!important;
+    }
+    .jumbotron {
+        background-size: cover;
+    }
+    #main-section {
+        margin-top: -3px;
+    }
+    div.ex-one {
+        height: 520px;
+        overflow-y: auto;
+        scrollbar-width: thin;
+    }
+    .ex-one::-webkit-scrollbar-track
+{
+	background-color: #464343;
+    margin-top: 23px;
+    margin-right: 22px;
+}
+
+.ex-one::-webkit-scrollbar
+{
+    width: 8px;
+}
+
+.ex-one::-webkit-scrollbar-thumb
+{ 
+	background-color: #e4609e;
+}
+
+.jumbotron {
+    background-size: cover;
+}
+.input-col{
+    align-items: right;
+    width: 100%!important;
+}
+.tp-col {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px!important;
+}
+.tp {
+    width: 100%!important;
+}
+.tp-head {
+    margin-top: 13px!important;
+}
+.list {
+    margin-right: 2em!important;
+}
+   .ab {
+    transform: translateX(133.7812px) scaleX(68);
+   }
+}
+@media screen and (max-width: 426px) {
+    .columns {
+        flex-direction: column;
+    }
+    .ulist {
+        flex-direction: row;
+    }
+    
+    .logo-img {
+        width: 18%!important;
+        margin-left: -25px!important;
+    }
+    .img-user {
+        width: 13%;
+    }
+    .inner-col {
+        flex-direction: column;
+    }
+    #main-section {
+        margin-top: -6px;
+    }
+    div.ex-one {
+        height: 550px;}
+
+        .list {
+            margin-right: 0.5em!important;
+        }
+    div.list-col {
+            width: 100%;
+            overflow-x: auto;
+    }
+    .list-col::-webkit-scrollbar {
+        background-color: transparent!important;
+    }
+
+    .mr-6 {
+        margin-right: 0rem!important;
+    }
+    .ab {
+        transform: translateX(119.7812px) scaleX(68);
+    }
+    .ac {
+        transform: translateX(212.7812px) scaleX(68);
+    }
+    .ad {
+        transform: translateX(308.7812px) scaleX(68);
+    }
+    
+    
+}
+
+.tp {
+    background-color: black;
+    width: 71%;
+    padding-bottom: 23px;
+    padding-top: 12px;
+}
+
+.pink-btn {
+    padding: 10px 17px;
+    font-size: 11px;
+    background-color: #e4609e;
+    border: none;
+    color: white;
+}
+
+.tp-head {
+    color: white;
+    margin-left: 27px;
+    font-size: 22px;
+    padding-bottom: 6px;
+}
+.price {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 12px;
+}
+.mile {
+    color: grey;
+    font-weight: lighter;
+}
+
+.price-box {
+    padding-bottom: 6px;
+}
+
+.tp-ul {
+    padding-top: 12px;
+    color: rgb(151, 148, 148);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.btn-lb {
+    margin-top: 6.8rem;
+   text-align: center;
+}
+.btn-fb {
+    margin-top: 2em;
+    text-align: center;
+} 
+.btn-mb {
+    margin-top: 3.6em;
+    text-align: center;
+} 
+
+.tp-ul li {
+    padding-bottom: 5px;
+}
+
+.inner-div {
+    background-color: rgb(39, 39, 39);
+    padding-bottom: 14px;
+}
